@@ -1,0 +1,292 @@
+body {
+	color: #000305;
+	font-size: 87.5%;
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #E61616;
+}
+
+a:hover, a:active {
+	color: #E61616;
+}
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+.mainHeader img {
+	width: 70%;
+	height: auto;
+	margin: 2% 0;
+}
+
+.mainHeader nav {
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left;
+	display: inline;
+	text-align: center;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #FF1919;
+	text-shadow: none; 
+}
+
+.mainHeader nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainContent {
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	overflow: hidden;
+	
+}
+
+.content {
+	width: 70%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.event {
+	width: 95%;
+	float: left;
+	background-color: #ffdcdc;
+	border-radius: 35px;
+	border-style:outset;
+	border-width: 5px;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	padding: 3% 2%;
+	margin-top: 2%;
+}
+
+.news {
+	width: 95%;
+	float: left;
+	background-color: #ffdcdc;
+	border-radius: 35px;
+	border-style:outset;
+	border-width: 5px;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	padding: 3% 2%;
+	margin-top: 2%;
+}
+
+.menu {
+	width: 97%;
+	float: left;
+	background-color: #ffdcdc;
+	border-radius: 5px;
+	border-style:outset;
+	border-width: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 2% 1%;
+	margin-top: 3%;
+}
+
+.menusub {
+	width: 97%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 35px;
+	border-style:outset;
+	border-width: 3px;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	padding: 2% 1%;
+	margin-top: 1%;
+}
+
+.admin {
+	width: 70%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	border-style:outset;
+	border-width: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 2% 1%;
+	margin-top: 1%;
+}
+
+
+.mainFooter {
+	width: 100%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #666;
+	margin: 2% 0;
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 2% auto; 
+	color: #FFF;
+}
+
+.logout {
+	padding: 10px 10px;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	border: 1px solid; 
+
+}
+
+.options {
+	position: fixed;
+	top: 70px;
+	right: 10px;
+
+}
+
+.add {
+	position: fixed;
+	top: 100px;
+	right: 10px;
+
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+	.body {
+		width: 90%;
+		font-size: 95%;
+	}
+	
+	.mainHeader img {
+		width: 100%;
+	}
+	
+	.mainHeader nav {
+	height: 240px;
+	}
+
+	.mainHeader nav ul {
+		padding-left: 0;
+	}
+
+	.mainHeader nav ul li {
+		width: 100%;
+		text-align: center;
+	}
+
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+		padding: 10px 25px;
+		height: 20px;
+		display: block;
+	}
+	
+
+	.content {
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+
+	.event {
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+
+	.news {
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+
+	.menu {
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+		
+}
+
+.image-wrapper img{
+    max-width:100% !important;
+    height:auto;
+    display:block;
+}
+
+.login {
+	text-align: center;
+	border: 5px solid #E61616;
+	position: relative;
+	margin: 0 auto;
+	padding: 10px 20px; 
+	width: 310px;
+	background: #dddddd;
+	border-radius: 25px;
+	@include box-shadow(0 0 200px rgba(white, .5), 0 1px 2px rgba(black, .3));
+
+	&:before {
+	content: '';
+	position: absolute;
+	top: -8px; right: -8px; bottom: -8px; left: -8px;
+	z-index: -1;
+	background: rgba(black, .08);
+	border-radius: 4px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
